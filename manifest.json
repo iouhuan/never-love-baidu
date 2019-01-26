@@ -1,0 +1,18 @@
+{
+  "name": "不爱度娘",
+  "version": "1.0",
+  "description": "你有没有摸到键盘就想敲某些网址，该插件可以屏蔽这类坏习惯!",
+  "icons":
+    {
+        "16": "img/icon.png",
+        "48": "img/icon.png",
+        "128": "img/icon.png"
+    },
+  "permissions": ["webRequest", "webRequestBlocking",
+                  "https://www.baidu.com/*"],
+  "background": {
+    "scripts": ["beauty.js", "background.js"]
+  },
+
+  "manifest_version": 2
+}
